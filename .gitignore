@@ -1,0 +1,8 @@
+**bin
+**metadata
+**.classpath
+**.project
+**.settings
+*.o
+*.elf
+*.so
