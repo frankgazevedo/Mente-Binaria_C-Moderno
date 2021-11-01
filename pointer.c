@@ -6,8 +6,7 @@ void imprime(char *s){
         putchar(*s++); //Aritmética de Ponteiros
 }
 
-
-int main(void){
+int main(int argc, char *argv[]){
   
   int a[] = {2012, 2021, 2023};
 
