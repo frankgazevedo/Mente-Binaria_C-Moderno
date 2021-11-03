@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 // char *argv[] ≃ char **argv => ponteiro de ponteiro
 int main(int argc, char *argv[], char *envp[]){

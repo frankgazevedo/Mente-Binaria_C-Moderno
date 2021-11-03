@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> // Necessária para MALLOC e REALLOC
 
 // char *argv[] ≃ char **argv => ponteiro de ponteiro
 int main(int argc, char *argv[], char *envp[]){
