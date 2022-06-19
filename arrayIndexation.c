@@ -42,7 +42,7 @@ int main(int argc, char *argv[], char *envp[]){
   for (int i = 0; i < TAM; i++)
       for (int j = 0; j < TAM; j++){
           printf("[%d][%d] = %d\t", i, j, *(*(t + i) + j));
-          if (j == TAM-1)
+          if (j == TAM-1) // Quando chegarmos a última coluna j da linha i, saltaremos para a próxima linha
               putchar('\n');
       }
 

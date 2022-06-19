@@ -2,7 +2,7 @@
 #include <stdlib.h> // Necessária para MALLOC e REALLOC
 #include <string.h> // Necessária para MEMSET
 
-// Ao utilizarmos alocação dinâmica de memória, é recomendável utilizar alguma técnicao de verificação para malloc.
+// Ao utilizarmos alocação dinâmica de memória, é recomendável utilizar alguma técnica de verificação para malloc.
 // Faremos testes com as duas possibilidades mais recomendadas: (1) uso de MACRO ou (2) uso de FUNÇÃO
 
 // Uso de MACRO
